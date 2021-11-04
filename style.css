@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Avenir Roman";
+    src: url(avenir-roman.ttf) format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(img/principalmax.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    font-family: "Avenir Roman", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #f9f9f9;
+    background: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    transition: .2s ease;
+}
+
+.btn:hover{
+    background: #f9f9f9;
+    color: black;
+}
+.franquias{
+    max-width: 600px;
+    margin-top: 55px;
+}
+.logo{
+    max-width: 400px;
+    margin-top: 20px;
+    margin-left: 110px ; 
+}
+
+.arte-content{
+    padding-left: 50px;
+}
+
+h1{
+    font-family: "Avenir Roman", sans-serif;
+    font-size: 28px;
+    margin-top: 240px;
+    text-align: center;
+    max-width: 600px;
+    line-height: 33px;
+    color: #f9f9f9;
+}
+
+.preco{
+    color: #c0c0c0;
+    font-family: "Avenir Roman", sans-serif;   
+    margin-top: 40px;
+}
+
+.preco a{
+    padding: 17.5px 15px;
+    color: #f9f9f9;
+    background:#0063e5;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Avenir Roman", sans-serif;
+    font-size: 18px;
+    max-width: 550px;
+    text-align: center;
+    transition: .2s;
+}
+
+.preco a:hover{
+    background: #0483ee;
+}
+ .preco p{
+    font-size: 12px;
+    margin-left: 100px;
+    margin-top: 23px;
+ }
+
+ .preco-2{
+    color: #c0c0c0;
+    font-family: "Avenir Roman", sans-serif;   
+    margin-top: 20px;
+ }
+
+ .preco-2 a{
+     color: #f9f9f9;
+     font-family: "Avenir Roman", sans-serif;
+     font-size: 20px;
+     margin-left: 200px;
+     max-width: 200px;
+ }
+
+ .preco-2 p{
+     font-size: 18px;
+     margin-left: 150px;
+     max-width: 400px;
+     margin-top: 5px;
+ }
